@@ -1,3 +1,8 @@
+/* 리셋 */
 @import url(./reset.css);
+/* 헤더 */
 @import url(./header.css);
+/* 레이아웃 */
 @import url(./layout.css);
+/* 홈 */
+@import url(./home.css);

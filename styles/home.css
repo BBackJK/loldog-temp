@@ -1,0 +1,98 @@
+.wrap {
+  padding: 40px;
+}
+
+.wrap > div + div {
+  margin-top: 40px;
+}
+
+.wrap .container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap .container_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.wrap span.title {
+  font-size: 24px;
+}
+
+.wrap a.more {
+  font-size: 14px;
+}
+
+.container_contents .container_contents_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.champ_wrapper {
+  text-align: center;
+  padding: 10px;
+}
+
+.champ_wrapper .champ_img {
+  width: 60px;
+  height:60px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.champ_wrapper .champ_name {
+  margin-top:10px;
+}
+
+
+/* 소환사의 협곡 티어 */
+.tier_area .container_contents .container_contents_wrapper {
+  justify-content: space-evenly;
+  height:250px;
+}
+
+.tier_area .tier_box {
+  width: 19%;
+}
+
+.tier_area .tier_line_name {
+  text-align: center;
+}
+
+.tier_area .tier_line_champ {
+  margin-top:5px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* height:100%; */
+  justify-content: center;
+  border: 1px solid green;
+}
+
+/* 랭킹별 top 5 */
+.ranking_area .container_contents .container_contents_wrapper {
+  justify-content: space-evenly;
+  height:250px;
+  overflow: hidden;
+}
+
+.ranking_area .ranking_box {
+  width: 32%;
+}
+
+.ranking_area .ranking_box .ranking_title {
+  /* float: left; */
+  height:20px;
+  line-height: 20px;
+}
+
+.ranking_area .ranking_box .ranking_contents {
+  margin-top:5px;
+  border: 1px solid green;
+  height: calc(100% - 27px);
+}
+
