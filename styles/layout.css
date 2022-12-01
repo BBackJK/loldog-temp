@@ -1,0 +1,13 @@
+.screen {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

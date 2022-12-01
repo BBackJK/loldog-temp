@@ -1,0 +1,46 @@
+.header {
+  width:100%;
+  /* background-color: yellow; */
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 100px;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-top:10px;
+}
+
+
+.logo .logo_box {
+  width: 200px;
+  height: 80px;
+  border: 1px solid;
+  line-height: 80px;
+  text-align: center;
+}
+
+.menu .menu_wrapper li {
+  float: left;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.menu .menu_wrapper li + li {
+  margin-left: 100px;
+}
+
+.auth .auth_wrapper a {
+  font-size: 14px;
+}
+
+.auth .auth_wrapper a + a {
+  margin-left: 10px;
+}
